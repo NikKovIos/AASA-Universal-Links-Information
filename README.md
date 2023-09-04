@@ -4,9 +4,12 @@ All interesting hidden and not information about iOS deeplinks (universal links)
 ## Apple documentation:
 
 https://developer.apple.com/videos/play/wwdc2020/10098
+https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app
 https://developer.apple.com/documentation/xcode/supporting-associated-domains
 https://developer.apple.com/documentation/bundleresources/applinks
 https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html
+https://developer.apple.com/documentation/uikit/uiapplication/1648685-open
+https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623072-application
 
 ## Test links:
 
@@ -28,7 +31,9 @@ To trigger a download you still need to delete the app and reinstall via Xcode (
 
 Developer mode example: `applinks:mydomain.com?mode=developer`
 
----
+## NOT word:
+
+Nice question and answer https://stackoverflow.com/q/58217784/5790492
 
 
 
