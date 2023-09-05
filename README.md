@@ -42,5 +42,12 @@ To enable Developer mode:
 
 Nice question and answer https://stackoverflow.com/q/58217784/5790492
 
+## Various
+
+https://stackoverflow.com/a/44685218/5790492
+You are correct that the apple-app-site-association file is downloaded when the app is installed. It will be re-downloaded for updates through the App Store, which means to add new paths and ensure all users have them, you generally need to release an app update.
+
+
+
 
 
