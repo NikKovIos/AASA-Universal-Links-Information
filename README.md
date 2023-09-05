@@ -3,14 +3,14 @@ All interesting hidden and not information about iOS deeplinks (universal links)
 
 ## Apple documentation:
 
-https://developer.apple.com/videos/play/wwdc2020/10098
-https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app
-https://developer.apple.com/documentation/xcode/supporting-associated-domains
-https://developer.apple.com/documentation/bundleresources/applinks
-https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html
-https://developer.apple.com/documentation/uikit/uiapplication/1648685-open
-https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623072-application
-https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_associated-domains
+- https://developer.apple.com/videos/play/wwdc2020/10098
+- https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app
+- https://developer.apple.com/documentation/xcode/supporting-associated-domains
+- https://developer.apple.com/documentation/bundleresources/applinks
+- https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html
+- https://developer.apple.com/documentation/uikit/uiapplication/1648685-open
+- https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1623072-application
+- https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_associated-domains
 
 ## Test links:
 
@@ -44,18 +44,18 @@ Nice question and answer https://stackoverflow.com/q/58217784/5790492
 
 ## Various
 
-https://stackoverflow.com/a/44685218/5790492
+https://stackoverflow.com/a/44685218/5790492  
 You are correct that the apple-app-site-association file is downloaded when the app is installed. It will be re-downloaded for updates through the App Store, which means to add new paths and ensure all users have them, you generally need to release an app update.
 
 ## Examples from big services
 
-https://www.ebay.co.uk/.well-known/apple-app-site-association
-https://www.kinopoisk.ru/.well-known/apple-app-site-association
+- https://www.ebay.co.uk/.well-known/apple-app-site-association
+- https://www.kinopoisk.ru/.well-known/apple-app-site-association
 
 # JSON and AASA Validators
 
-https://yurl.chayev.com/
-https://jsonlint.com/
+- https://yurl.chayev.com/
+- https://jsonlint.com/
 
 
 
