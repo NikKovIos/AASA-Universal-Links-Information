@@ -57,6 +57,44 @@ You are correct that the apple-app-site-association file is downloaded when the 
 - https://yurl.chayev.com/
 - https://jsonlint.com/
 
+## Example
 
+Here is the example of AASA file where root links not opens. This is new format of AASA. With old format file didn't work and didn't refirect me.
 
+```json
+{
+    "applinks": {
+        "apps": [
+
+        ],
+        "details": [{
+            "appIDs": [
+                "XXXXXXXXXX.com.bundleId",
+                "YYYYYYYYYY.com.bundleId"
+            ],
+            "components": [
+                {
+                    "/": "/test/*"
+                },
+                {
+                    "/": "/*/type/criteria/*"
+                },
+                {
+                    "/": "/*/news/*"
+                },
+                {
+                    "/": "/*/some/details/*"
+                },
+                {
+                    "/": "/*/sales/*/view/*"
+                },
+                {
+                    "/": "/*",
+                    "exclude": true
+                }
+            ]
+        }]
+    }
+}
+```
 
