@@ -52,6 +52,10 @@ You are correct that the apple-app-site-association file is downloaded when the 
 https://www.ebay.co.uk/.well-known/apple-app-site-association
 https://www.kinopoisk.ru/.well-known/apple-app-site-association
 
+# JSON and AASA Validators
+
+https://yurl.chayev.com/
+https://jsonlint.com/
 
 
 
