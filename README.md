@@ -47,6 +47,15 @@ Nice question and answer https://stackoverflow.com/q/58217784/5790492
 https://stackoverflow.com/a/44685218/5790492  
 You are correct that the apple-app-site-association file is downloaded when the app is installed. It will be re-downloaded for updates through the App Store, which means to add new paths and ensure all users have them, you generally need to release an app update.
 
+## Often Errors
+
+Check that your AASA file is valid:
+1) Use new apple format. `"/": ""`. "components" instead "path" and so on;
+2) Validate JSON. It can be that you forget to remove comma or quotation mark;
+3) Check the `"apps": []` exists;
+4) Check that apple cashed your new version on CDN. Otherwise use developer mode;
+5) Reinstall app or update it. AASA downloaded this time;
+
 ## Examples from big services
 
 - https://www.ebay.co.uk/.well-known/apple-app-site-association
