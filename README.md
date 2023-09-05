@@ -55,6 +55,9 @@ Check that your AASA file is valid:
 3) Check the `"apps": []` exists;
 4) Check that apple cashed your new version on CDN. Otherwise use developer mode;
 5) Reinstall app or update it. AASA downloaded this time;
+6) Be sure that your backend developer did everything well. Check local file. Check that your domain of ULink has it.
+
+In my case was a problem that app opened everything with domain from assocatedDomains as a deeplink.
 
 ## Examples from big services
 
