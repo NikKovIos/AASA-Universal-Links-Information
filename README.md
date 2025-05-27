@@ -20,6 +20,9 @@ https://app-site-association.cdn-apple.com/a/v1/YOURDOMAIN
 To see AASA file on your site:
 https://YOURDOMAINcom/.well-known/apple-app-site-association
 
+To check all information about deeplinks and else:
+https://well-known.dev/
+
 ## Developer mode:
 
 https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_associated-domains  
