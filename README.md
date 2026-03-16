@@ -74,7 +74,7 @@ In my case was a problem that app opened everything with domain from assocatedDo
 
 ## Example
 
-Here is the example of AASA file where root links not opens. This is new format of AASA. With old format file didn't work and didn't refirect me.
+Here is the example of AASA file where root links not opens. This is new format of AASA. With old format file didn't work and didn't redirect me.
 
 ```json
 {
